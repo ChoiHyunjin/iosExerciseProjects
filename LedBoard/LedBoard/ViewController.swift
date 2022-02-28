@@ -20,7 +20,6 @@ class ViewController: UIViewController, LEDBoardSettingDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.contentLabel.textColor = .yellow
-        
     }
 	
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
