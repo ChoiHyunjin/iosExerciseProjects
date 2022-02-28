@@ -4,7 +4,7 @@
 
 ## 정리
 ### 0. 공통  
-- storyboard 에서 다음 VC를 받아온다.  
+- storyboard(self.storyboard 혹은 UIStoryboardSegue) 에서 다음 VC를 받아온다.  
 
 ### 1. Segue  
 - 스토리보드에서 화면간 연결하면 끝이기 때문에 조금 더 편하다.
