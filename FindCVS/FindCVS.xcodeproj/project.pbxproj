@@ -7,119 +7,163 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF1C4B34282A0D0900BEBA8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C4B33282A0D0900BEBA8B /* AppDelegate.swift */; };
-		CF1C4B36282A0D0900BEBA8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C4B35282A0D0900BEBA8B /* ViewController.swift */; };
-		CF1C4B38282A0D0B00BEBA8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1C4B37282A0D0B00BEBA8B /* Assets.xcassets */; };
-		CF1C4B3B282A0D0B00BEBA8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1C4B39282A0D0B00BEBA8B /* Main.storyboard */; };
-		CF1C4B46282A0D0B00BEBA8B /* FindCVSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C4B45282A0D0B00BEBA8B /* FindCVSTests.swift */; };
-		CF1C4B50282A0D0B00BEBA8B /* FindCVSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C4B4F282A0D0B00BEBA8B /* FindCVSUITests.swift */; };
-		CF1C4B52282A0D0B00BEBA8B /* FindCVSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C4B51282A0D0B00BEBA8B /* FindCVSUITestsLaunchTests.swift */; };
-		CF1C4B5F282A0D4A00BEBA8B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CF1C4B5E282A0D4A00BEBA8B /* README.md */; };
+		708DB9B7D8102773CE5CC7E6 /* Pods_FindCVS_FindCVSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7FC7B0BD06F68277DB6A28 /* Pods_FindCVS_FindCVSUITests.framework */; };
+		787EB180B95B9F22835661E1 /* Pods_FindCVS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31C03A1E0F192A8827E7558 /* Pods_FindCVS.framework */; };
+		CF1C4B6D282A0E5100BEBA8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C4B6C282A0E5100BEBA8B /* AppDelegate.swift */; };
+		CF1C4B6F282A0E5100BEBA8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C4B6E282A0E5100BEBA8B /* SceneDelegate.swift */; };
+		CF1C4B71282A0E5100BEBA8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C4B70282A0E5100BEBA8B /* ViewController.swift */; };
+		CF1C4B74282A0E5100BEBA8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1C4B72282A0E5100BEBA8B /* Main.storyboard */; };
+		CF1C4B76282A0E5200BEBA8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1C4B75282A0E5200BEBA8B /* Assets.xcassets */; };
+		CF1C4B79282A0E5200BEBA8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1C4B77282A0E5200BEBA8B /* LaunchScreen.storyboard */; };
+		CF1C4B84282A0E5200BEBA8B /* FindCVSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C4B83282A0E5200BEBA8B /* FindCVSTests.swift */; };
+		CF1C4B8E282A0E5200BEBA8B /* FindCVSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C4B8D282A0E5200BEBA8B /* FindCVSUITests.swift */; };
+		CF1C4B90282A0E5200BEBA8B /* FindCVSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C4B8F282A0E5200BEBA8B /* FindCVSUITestsLaunchTests.swift */; };
+		DF405BD871967CD19717C50D /* Pods_FindCVSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB58264A7662AEFD575F20D /* Pods_FindCVSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CF1C4B42282A0D0B00BEBA8B /* PBXContainerItemProxy */ = {
+		CF1C4B80282A0E5200BEBA8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CF1C4B28282A0D0900BEBA8B /* Project object */;
+			containerPortal = CF1C4B61282A0E5100BEBA8B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CF1C4B2F282A0D0900BEBA8B;
+			remoteGlobalIDString = CF1C4B68282A0E5100BEBA8B;
 			remoteInfo = FindCVS;
 		};
-		CF1C4B4C282A0D0B00BEBA8B /* PBXContainerItemProxy */ = {
+		CF1C4B8A282A0E5200BEBA8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CF1C4B28282A0D0900BEBA8B /* Project object */;
+			containerPortal = CF1C4B61282A0E5100BEBA8B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CF1C4B2F282A0D0900BEBA8B;
+			remoteGlobalIDString = CF1C4B68282A0E5100BEBA8B;
 			remoteInfo = FindCVS;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CF1C4B30282A0D0900BEBA8B /* FindCVS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindCVS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF1C4B33282A0D0900BEBA8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF1C4B35282A0D0900BEBA8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CF1C4B37282A0D0B00BEBA8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CF1C4B3A282A0D0B00BEBA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CF1C4B3C282A0D0B00BEBA8B /* FindCVS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FindCVS.entitlements; sourceTree = "<group>"; };
-		CF1C4B41282A0D0B00BEBA8B /* FindCVSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindCVSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF1C4B45282A0D0B00BEBA8B /* FindCVSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCVSTests.swift; sourceTree = "<group>"; };
-		CF1C4B4B282A0D0B00BEBA8B /* FindCVSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindCVSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF1C4B4F282A0D0B00BEBA8B /* FindCVSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCVSUITests.swift; sourceTree = "<group>"; };
-		CF1C4B51282A0D0B00BEBA8B /* FindCVSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCVSUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CF1C4B5E282A0D4A00BEBA8B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		0D1B583EAA2CAA381700C967 /* Pods-FindCVSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVSTests.debug.xcconfig"; path = "Target Support Files/Pods-FindCVSTests/Pods-FindCVSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A7FC7B0BD06F68277DB6A28 /* Pods_FindCVS_FindCVSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindCVS_FindCVSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2459AC36DD69F29F4730DEC0 /* Pods-FindCVS-FindCVSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVS-FindCVSUITests.release.xcconfig"; path = "Target Support Files/Pods-FindCVS-FindCVSUITests/Pods-FindCVS-FindCVSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		38F9D22D04C126E13330178A /* Pods-FindCVS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVS.release.xcconfig"; path = "Target Support Files/Pods-FindCVS/Pods-FindCVS.release.xcconfig"; sourceTree = "<group>"; };
+		46DB185DB2BB7271DE55ADCE /* Pods-FindCVSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVSTests.release.xcconfig"; path = "Target Support Files/Pods-FindCVSTests/Pods-FindCVSTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DB58264A7662AEFD575F20D /* Pods_FindCVSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindCVSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A566F65B57865E833837FCA8 /* Pods-FindCVS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVS.debug.xcconfig"; path = "Target Support Files/Pods-FindCVS/Pods-FindCVS.debug.xcconfig"; sourceTree = "<group>"; };
+		C31C03A1E0F192A8827E7558 /* Pods_FindCVS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindCVS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1C4B69282A0E5100BEBA8B /* FindCVS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindCVS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1C4B6C282A0E5100BEBA8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF1C4B6E282A0E5100BEBA8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF1C4B70282A0E5100BEBA8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF1C4B73282A0E5100BEBA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF1C4B75282A0E5200BEBA8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF1C4B78282A0E5200BEBA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF1C4B7A282A0E5200BEBA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1C4B7F282A0E5200BEBA8B /* FindCVSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindCVSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1C4B83282A0E5200BEBA8B /* FindCVSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCVSTests.swift; sourceTree = "<group>"; };
+		CF1C4B89282A0E5200BEBA8B /* FindCVSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindCVSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1C4B8D282A0E5200BEBA8B /* FindCVSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCVSUITests.swift; sourceTree = "<group>"; };
+		CF1C4B8F282A0E5200BEBA8B /* FindCVSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCVSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3390A2274FD5F005A6A9C2E /* Pods-FindCVS-FindCVSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVS-FindCVSUITests.debug.xcconfig"; path = "Target Support Files/Pods-FindCVS-FindCVSUITests/Pods-FindCVS-FindCVSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CF1C4B2D282A0D0900BEBA8B /* Frameworks */ = {
+		CF1C4B66282A0E5100BEBA8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787EB180B95B9F22835661E1 /* Pods_FindCVS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF1C4B3E282A0D0B00BEBA8B /* Frameworks */ = {
+		CF1C4B7C282A0E5200BEBA8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF405BD871967CD19717C50D /* Pods_FindCVSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF1C4B48282A0D0B00BEBA8B /* Frameworks */ = {
+		CF1C4B86282A0E5200BEBA8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708DB9B7D8102773CE5CC7E6 /* Pods_FindCVS_FindCVSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CF1C4B27282A0D0900BEBA8B = {
+		2323E0DBFA1DA4F4963E20B2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CF1C4B5E282A0D4A00BEBA8B /* README.md */,
-				CF1C4B32282A0D0900BEBA8B /* FindCVS */,
-				CF1C4B44282A0D0B00BEBA8B /* FindCVSTests */,
-				CF1C4B4E282A0D0B00BEBA8B /* FindCVSUITests */,
-				CF1C4B31282A0D0900BEBA8B /* Products */,
+				A566F65B57865E833837FCA8 /* Pods-FindCVS.debug.xcconfig */,
+				38F9D22D04C126E13330178A /* Pods-FindCVS.release.xcconfig */,
+				E3390A2274FD5F005A6A9C2E /* Pods-FindCVS-FindCVSUITests.debug.xcconfig */,
+				2459AC36DD69F29F4730DEC0 /* Pods-FindCVS-FindCVSUITests.release.xcconfig */,
+				0D1B583EAA2CAA381700C967 /* Pods-FindCVSTests.debug.xcconfig */,
+				46DB185DB2BB7271DE55ADCE /* Pods-FindCVSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A7377BC08F476DBB62C37E83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C31C03A1E0F192A8827E7558 /* Pods_FindCVS.framework */,
+				1A7FC7B0BD06F68277DB6A28 /* Pods_FindCVS_FindCVSUITests.framework */,
+				9DB58264A7662AEFD575F20D /* Pods_FindCVSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1C4B60282A0E5100BEBA8B = {
+			isa = PBXGroup;
+			children = (
+				CF1C4B6B282A0E5100BEBA8B /* FindCVS */,
+				CF1C4B82282A0E5200BEBA8B /* FindCVSTests */,
+				CF1C4B8C282A0E5200BEBA8B /* FindCVSUITests */,
+				CF1C4B6A282A0E5100BEBA8B /* Products */,
+				2323E0DBFA1DA4F4963E20B2 /* Pods */,
+				A7377BC08F476DBB62C37E83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		CF1C4B31282A0D0900BEBA8B /* Products */ = {
+		CF1C4B6A282A0E5100BEBA8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF1C4B30282A0D0900BEBA8B /* FindCVS.app */,
-				CF1C4B41282A0D0B00BEBA8B /* FindCVSTests.xctest */,
-				CF1C4B4B282A0D0B00BEBA8B /* FindCVSUITests.xctest */,
+				CF1C4B69282A0E5100BEBA8B /* FindCVS.app */,
+				CF1C4B7F282A0E5200BEBA8B /* FindCVSTests.xctest */,
+				CF1C4B89282A0E5200BEBA8B /* FindCVSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF1C4B32282A0D0900BEBA8B /* FindCVS */ = {
+		CF1C4B6B282A0E5100BEBA8B /* FindCVS */ = {
 			isa = PBXGroup;
 			children = (
-				CF1C4B33282A0D0900BEBA8B /* AppDelegate.swift */,
-				CF1C4B35282A0D0900BEBA8B /* ViewController.swift */,
-				CF1C4B37282A0D0B00BEBA8B /* Assets.xcassets */,
-				CF1C4B39282A0D0B00BEBA8B /* Main.storyboard */,
-				CF1C4B3C282A0D0B00BEBA8B /* FindCVS.entitlements */,
+				CF1C4B6C282A0E5100BEBA8B /* AppDelegate.swift */,
+				CF1C4B6E282A0E5100BEBA8B /* SceneDelegate.swift */,
+				CF1C4B70282A0E5100BEBA8B /* ViewController.swift */,
+				CF1C4B72282A0E5100BEBA8B /* Main.storyboard */,
+				CF1C4B75282A0E5200BEBA8B /* Assets.xcassets */,
+				CF1C4B77282A0E5200BEBA8B /* LaunchScreen.storyboard */,
+				CF1C4B7A282A0E5200BEBA8B /* Info.plist */,
 			);
 			path = FindCVS;
 			sourceTree = "<group>";
 		};
-		CF1C4B44282A0D0B00BEBA8B /* FindCVSTests */ = {
+		CF1C4B82282A0E5200BEBA8B /* FindCVSTests */ = {
 			isa = PBXGroup;
 			children = (
-				CF1C4B45282A0D0B00BEBA8B /* FindCVSTests.swift */,
+				CF1C4B83282A0E5200BEBA8B /* FindCVSTests.swift */,
 			);
 			path = FindCVSTests;
 			sourceTree = "<group>";
 		};
-		CF1C4B4E282A0D0B00BEBA8B /* FindCVSUITests */ = {
+		CF1C4B8C282A0E5200BEBA8B /* FindCVSUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CF1C4B4F282A0D0B00BEBA8B /* FindCVSUITests.swift */,
-				CF1C4B51282A0D0B00BEBA8B /* FindCVSUITestsLaunchTests.swift */,
+				CF1C4B8D282A0E5200BEBA8B /* FindCVSUITests.swift */,
+				CF1C4B8F282A0E5200BEBA8B /* FindCVSUITestsLaunchTests.swift */,
 			);
 			path = FindCVSUITests;
 			sourceTree = "<group>";
@@ -127,13 +171,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF1C4B2F282A0D0900BEBA8B /* FindCVS */ = {
+		CF1C4B68282A0E5100BEBA8B /* FindCVS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF1C4B55282A0D0B00BEBA8B /* Build configuration list for PBXNativeTarget "FindCVS" */;
+			buildConfigurationList = CF1C4B93282A0E5200BEBA8B /* Build configuration list for PBXNativeTarget "FindCVS" */;
 			buildPhases = (
-				CF1C4B2C282A0D0900BEBA8B /* Sources */,
-				CF1C4B2D282A0D0900BEBA8B /* Frameworks */,
-				CF1C4B2E282A0D0900BEBA8B /* Resources */,
+				A2F46E901CB55E000030B45C /* [CP] Check Pods Manifest.lock */,
+				CF1C4B65282A0E5100BEBA8B /* Sources */,
+				CF1C4B66282A0E5100BEBA8B /* Frameworks */,
+				CF1C4B67282A0E5100BEBA8B /* Resources */,
+				ACB4D3FAC6227BCEC7511495 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,69 +187,72 @@
 			);
 			name = FindCVS;
 			productName = FindCVS;
-			productReference = CF1C4B30282A0D0900BEBA8B /* FindCVS.app */;
+			productReference = CF1C4B69282A0E5100BEBA8B /* FindCVS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CF1C4B40282A0D0B00BEBA8B /* FindCVSTests */ = {
+		CF1C4B7E282A0E5200BEBA8B /* FindCVSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF1C4B58282A0D0B00BEBA8B /* Build configuration list for PBXNativeTarget "FindCVSTests" */;
+			buildConfigurationList = CF1C4B96282A0E5200BEBA8B /* Build configuration list for PBXNativeTarget "FindCVSTests" */;
 			buildPhases = (
-				CF1C4B3D282A0D0B00BEBA8B /* Sources */,
-				CF1C4B3E282A0D0B00BEBA8B /* Frameworks */,
-				CF1C4B3F282A0D0B00BEBA8B /* Resources */,
+				2B4E6724426FDBC908C7F3BF /* [CP] Check Pods Manifest.lock */,
+				CF1C4B7B282A0E5200BEBA8B /* Sources */,
+				CF1C4B7C282A0E5200BEBA8B /* Frameworks */,
+				CF1C4B7D282A0E5200BEBA8B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CF1C4B43282A0D0B00BEBA8B /* PBXTargetDependency */,
+				CF1C4B81282A0E5200BEBA8B /* PBXTargetDependency */,
 			);
 			name = FindCVSTests;
 			productName = FindCVSTests;
-			productReference = CF1C4B41282A0D0B00BEBA8B /* FindCVSTests.xctest */;
+			productReference = CF1C4B7F282A0E5200BEBA8B /* FindCVSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CF1C4B4A282A0D0B00BEBA8B /* FindCVSUITests */ = {
+		CF1C4B88282A0E5200BEBA8B /* FindCVSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF1C4B5B282A0D0B00BEBA8B /* Build configuration list for PBXNativeTarget "FindCVSUITests" */;
+			buildConfigurationList = CF1C4B99282A0E5200BEBA8B /* Build configuration list for PBXNativeTarget "FindCVSUITests" */;
 			buildPhases = (
-				CF1C4B47282A0D0B00BEBA8B /* Sources */,
-				CF1C4B48282A0D0B00BEBA8B /* Frameworks */,
-				CF1C4B49282A0D0B00BEBA8B /* Resources */,
+				D2AD946BBA49443E7A1C1F34 /* [CP] Check Pods Manifest.lock */,
+				CF1C4B85282A0E5200BEBA8B /* Sources */,
+				CF1C4B86282A0E5200BEBA8B /* Frameworks */,
+				CF1C4B87282A0E5200BEBA8B /* Resources */,
+				6AF133D4D7C7EA81FF552E12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CF1C4B4D282A0D0B00BEBA8B /* PBXTargetDependency */,
+				CF1C4B8B282A0E5200BEBA8B /* PBXTargetDependency */,
 			);
 			name = FindCVSUITests;
 			productName = FindCVSUITests;
-			productReference = CF1C4B4B282A0D0B00BEBA8B /* FindCVSUITests.xctest */;
+			productReference = CF1C4B89282A0E5200BEBA8B /* FindCVSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CF1C4B28282A0D0900BEBA8B /* Project object */ = {
+		CF1C4B61282A0E5100BEBA8B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					CF1C4B2F282A0D0900BEBA8B = {
+					CF1C4B68282A0E5100BEBA8B = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
-					CF1C4B40282A0D0B00BEBA8B = {
+					CF1C4B7E282A0E5200BEBA8B = {
 						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = CF1C4B2F282A0D0900BEBA8B;
+						TestTargetID = CF1C4B68282A0E5100BEBA8B;
 					};
-					CF1C4B4A282A0D0B00BEBA8B = {
+					CF1C4B88282A0E5200BEBA8B = {
 						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = CF1C4B2F282A0D0900BEBA8B;
+						TestTargetID = CF1C4B68282A0E5100BEBA8B;
 					};
 				};
 			};
-			buildConfigurationList = CF1C4B2B282A0D0900BEBA8B /* Build configuration list for PBXProject "FindCVS" */;
+			buildConfigurationList = CF1C4B64282A0E5100BEBA8B /* Build configuration list for PBXProject "FindCVS" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -211,100 +260,212 @@
 				en,
 				Base,
 			);
-			mainGroup = CF1C4B27282A0D0900BEBA8B;
-			productRefGroup = CF1C4B31282A0D0900BEBA8B /* Products */;
+			mainGroup = CF1C4B60282A0E5100BEBA8B;
+			productRefGroup = CF1C4B6A282A0E5100BEBA8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF1C4B2F282A0D0900BEBA8B /* FindCVS */,
-				CF1C4B40282A0D0B00BEBA8B /* FindCVSTests */,
-				CF1C4B4A282A0D0B00BEBA8B /* FindCVSUITests */,
+				CF1C4B68282A0E5100BEBA8B /* FindCVS */,
+				CF1C4B7E282A0E5200BEBA8B /* FindCVSTests */,
+				CF1C4B88282A0E5200BEBA8B /* FindCVSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CF1C4B2E282A0D0900BEBA8B /* Resources */ = {
+		CF1C4B67282A0E5100BEBA8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF1C4B38282A0D0B00BEBA8B /* Assets.xcassets in Resources */,
-				CF1C4B3B282A0D0B00BEBA8B /* Main.storyboard in Resources */,
+				CF1C4B79282A0E5200BEBA8B /* LaunchScreen.storyboard in Resources */,
+				CF1C4B76282A0E5200BEBA8B /* Assets.xcassets in Resources */,
+				CF1C4B74282A0E5100BEBA8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF1C4B3F282A0D0B00BEBA8B /* Resources */ = {
+		CF1C4B7D282A0E5200BEBA8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF1C4B49282A0D0B00BEBA8B /* Resources */ = {
+		CF1C4B87282A0E5200BEBA8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF1C4B5F282A0D4A00BEBA8B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B4E6724426FDBC908C7F3BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindCVSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF133D4D7C7EA81FF552E12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindCVS-FindCVSUITests/Pods-FindCVS-FindCVSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindCVS-FindCVSUITests/Pods-FindCVS-FindCVSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindCVS-FindCVSUITests/Pods-FindCVS-FindCVSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2F46E901CB55E000030B45C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindCVS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACB4D3FAC6227BCEC7511495 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindCVS/Pods-FindCVS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindCVS/Pods-FindCVS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindCVS/Pods-FindCVS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2AD946BBA49443E7A1C1F34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindCVS-FindCVSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		CF1C4B2C282A0D0900BEBA8B /* Sources */ = {
+		CF1C4B65282A0E5100BEBA8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF1C4B36282A0D0900BEBA8B /* ViewController.swift in Sources */,
-				CF1C4B34282A0D0900BEBA8B /* AppDelegate.swift in Sources */,
+				CF1C4B71282A0E5100BEBA8B /* ViewController.swift in Sources */,
+				CF1C4B6D282A0E5100BEBA8B /* AppDelegate.swift in Sources */,
+				CF1C4B6F282A0E5100BEBA8B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF1C4B3D282A0D0B00BEBA8B /* Sources */ = {
+		CF1C4B7B282A0E5200BEBA8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF1C4B46282A0D0B00BEBA8B /* FindCVSTests.swift in Sources */,
+				CF1C4B84282A0E5200BEBA8B /* FindCVSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF1C4B47282A0D0B00BEBA8B /* Sources */ = {
+		CF1C4B85282A0E5200BEBA8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF1C4B52282A0D0B00BEBA8B /* FindCVSUITestsLaunchTests.swift in Sources */,
-				CF1C4B50282A0D0B00BEBA8B /* FindCVSUITests.swift in Sources */,
+				CF1C4B90282A0E5200BEBA8B /* FindCVSUITestsLaunchTests.swift in Sources */,
+				CF1C4B8E282A0E5200BEBA8B /* FindCVSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CF1C4B43282A0D0B00BEBA8B /* PBXTargetDependency */ = {
+		CF1C4B81282A0E5200BEBA8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF1C4B2F282A0D0900BEBA8B /* FindCVS */;
-			targetProxy = CF1C4B42282A0D0B00BEBA8B /* PBXContainerItemProxy */;
+			target = CF1C4B68282A0E5100BEBA8B /* FindCVS */;
+			targetProxy = CF1C4B80282A0E5200BEBA8B /* PBXContainerItemProxy */;
 		};
-		CF1C4B4D282A0D0B00BEBA8B /* PBXTargetDependency */ = {
+		CF1C4B8B282A0E5200BEBA8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF1C4B2F282A0D0900BEBA8B /* FindCVS */;
-			targetProxy = CF1C4B4C282A0D0B00BEBA8B /* PBXContainerItemProxy */;
+			target = CF1C4B68282A0E5100BEBA8B /* FindCVS */;
+			targetProxy = CF1C4B8A282A0E5200BEBA8B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CF1C4B39282A0D0B00BEBA8B /* Main.storyboard */ = {
+		CF1C4B72282A0E5100BEBA8B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CF1C4B3A282A0D0B00BEBA8B /* Base */,
+				CF1C4B73282A0E5100BEBA8B /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF1C4B77282A0E5200BEBA8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF1C4B78282A0E5200BEBA8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CF1C4B53282A0D0B00BEBA8B /* Debug */ = {
+		CF1C4B91282A0E5200BEBA8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -354,17 +515,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		CF1C4B54282A0D0B00BEBA8B /* Release */ = {
+		CF1C4B92282A0E5200BEBA8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -408,71 +569,77 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		CF1C4B56282A0D0B00BEBA8B /* Debug */ = {
+		CF1C4B94282A0E5200BEBA8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A566F65B57865E833837FCA8 /* Pods-FindCVS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = FindCVS/FindCVS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F2ULJVBY3J;
-				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_FILE = FindCVS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hjChoi.FindCVS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CF1C4B57282A0D0B00BEBA8B /* Release */ = {
+		CF1C4B95282A0E5200BEBA8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F9D22D04C126E13330178A /* Pods-FindCVS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = FindCVS/FindCVS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F2ULJVBY3J;
-				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_FILE = FindCVS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hjChoi.FindCVS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		CF1C4B59282A0D0B00BEBA8B /* Debug */ = {
+		CF1C4B97282A0E5200BEBA8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D1B583EAA2CAA381700C967 /* Pods-FindCVSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,18 +647,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F2ULJVBY3J;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hjChoi.FindCVSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindCVS.app/Contents/MacOS/FindCVS";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindCVS.app/FindCVS";
 			};
 			name = Debug;
 		};
-		CF1C4B5A282A0D0B00BEBA8B /* Release */ = {
+		CF1C4B98282A0E5200BEBA8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46DB185DB2BB7271DE55ADCE /* Pods-FindCVSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,18 +668,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F2ULJVBY3J;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hjChoi.FindCVSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindCVS.app/Contents/MacOS/FindCVS";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindCVS.app/FindCVS";
 			};
 			name = Release;
 		};
-		CF1C4B5C282A0D0B00BEBA8B /* Debug */ = {
+		CF1C4B9A282A0E5200BEBA8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3390A2274FD5F005A6A9C2E /* Pods-FindCVS-FindCVSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,12 +693,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FindCVS;
 			};
 			name = Debug;
 		};
-		CF1C4B5D282A0D0B00BEBA8B /* Release */ = {
+		CF1C4B9B282A0E5200BEBA8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2459AC36DD69F29F4730DEC0 /* Pods-FindCVS-FindCVSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +712,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FindCVS;
 			};
 			name = Release;
@@ -546,43 +720,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF1C4B2B282A0D0900BEBA8B /* Build configuration list for PBXProject "FindCVS" */ = {
+		CF1C4B64282A0E5100BEBA8B /* Build configuration list for PBXProject "FindCVS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF1C4B53282A0D0B00BEBA8B /* Debug */,
-				CF1C4B54282A0D0B00BEBA8B /* Release */,
+				CF1C4B91282A0E5200BEBA8B /* Debug */,
+				CF1C4B92282A0E5200BEBA8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF1C4B55282A0D0B00BEBA8B /* Build configuration list for PBXNativeTarget "FindCVS" */ = {
+		CF1C4B93282A0E5200BEBA8B /* Build configuration list for PBXNativeTarget "FindCVS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF1C4B56282A0D0B00BEBA8B /* Debug */,
-				CF1C4B57282A0D0B00BEBA8B /* Release */,
+				CF1C4B94282A0E5200BEBA8B /* Debug */,
+				CF1C4B95282A0E5200BEBA8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF1C4B58282A0D0B00BEBA8B /* Build configuration list for PBXNativeTarget "FindCVSTests" */ = {
+		CF1C4B96282A0E5200BEBA8B /* Build configuration list for PBXNativeTarget "FindCVSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF1C4B59282A0D0B00BEBA8B /* Debug */,
-				CF1C4B5A282A0D0B00BEBA8B /* Release */,
+				CF1C4B97282A0E5200BEBA8B /* Debug */,
+				CF1C4B98282A0E5200BEBA8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF1C4B5B282A0D0B00BEBA8B /* Build configuration list for PBXNativeTarget "FindCVSUITests" */ = {
+		CF1C4B99282A0E5200BEBA8B /* Build configuration list for PBXNativeTarget "FindCVSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF1C4B5C282A0D0B00BEBA8B /* Debug */,
-				CF1C4B5D282A0D0B00BEBA8B /* Release */,
+				CF1C4B9A282A0E5200BEBA8B /* Debug */,
+				CF1C4B9B282A0E5200BEBA8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CF1C4B28282A0D0900BEBA8B /* Project object */;
+	rootObject = CF1C4B61282A0E5100BEBA8B /* Project object */;
 }
